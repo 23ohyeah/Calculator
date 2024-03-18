@@ -1,0 +1,28 @@
+*{background-color: #FFC07F;}
+
+h1{color: #05668D;
+    padding: 15px;
+    font-size: xx-large;}
+
+    p{color: #942911;
+        font-style:italic;
+        text-align: center;
+        padding: 8px;
+        margin: 10px;}
+
+        a{background-color:  #942911;
+            color: #4c8f86;
+            text-decoration: none;
+            text-align: center;
+            padding: 5px;
+            border: 5px outset #852415;
+            margin:20px ;
+            border-radius: 50%;}
+        
+        a:hover{background-color: #942911;
+        color: #4c8f86;
+        text-decoration: none;
+        padding: 7px;
+        border: 5px inset #852415;
+        border-radius: 50%;
+        margin: 20px;}

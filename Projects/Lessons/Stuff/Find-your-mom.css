@@ -1,0 +1,25 @@
+
+.game {
+    position: relative;
+    display: inline-block;
+    height: 100%
+}
+
+.game .jungle {
+    margin: top 50px;
+    height: auto;
+    width: 90%;
+}
+
+.game .gorilla{position: fixed;
+    top: 260px;
+    left: 231px;
+    z-index: 1;
+    transition-duration: 300ms;
+    transition-property: max-height;
+    max-height: 25px;
+}
+
+.game .gorilla:hover{
+    max-height: 180px;
+}

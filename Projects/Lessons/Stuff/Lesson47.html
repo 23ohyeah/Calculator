@@ -1,0 +1,69 @@
+
+<head>
+<style>
+
+html,
+body {
+    margin-top: 50px;
+    height:100%;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+   
+}
+
+h1{font-size: 40px;}
+
+
+.game {
+    position: relative;
+    display: inline-block;
+    height: 60%;
+    border: 5px;
+    padding: 5px; 
+    margin: 5px;
+}
+
+.game .jungle {
+    padding: top 50px;
+    height: auto;
+    width: 90%;
+    
+}
+
+.game .gorilla{
+    position: absolute;
+    top: 260px;
+    left: 231px;
+    z-index: 1;
+    transition-duration: 3s;
+    transition-property: max-height;
+    max-height: 15px;
+}
+
+.game .gorilla:hover{
+    max-height: 180px;
+}
+</style>
+</head> 
+<html>
+<body>
+    <h1> Find your dopple-ganger!</h1>
+    <div class = "game">
+        <img class= "gorilla" src="https://cdn.pixabay.com/photo/2023/01/09/22/05/gorilla-7708352_1280.jpg"/>
+        <img class="jungle" src="https://cdn.pixabay.com/photo/2016/11/28/18/37/the-1865639_1280.jpg"/>
+    </div>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
